@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Pinecliff Brand Colors (from logo) */
+  --primary: #2F5597;        /* Logo blue */
+  --secondary: #5B7DBE;      /* Light blue */
+  --accent: #D6E0F2;         /* Soft UI background */
+
+  /* Text */
+  --text-primary: #2B2B2B;
+  --text-secondary: #6B7280;
+
+  /* Backgrounds */
+  --bg-main: #ffffff;
+  --bg-soft: #f6f8fc;
+}
