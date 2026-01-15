@@ -2,10 +2,10 @@
   "name": "pinecliff-it-portfolio",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "node node_modules/vite/bin/vite.js build",
+  "preview": "vite preview"
+},
   "dependencies": {
     "lucide-react": "^0.400.0",
     "react": "^18.2.0",
