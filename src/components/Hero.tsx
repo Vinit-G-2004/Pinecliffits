@@ -29,7 +29,7 @@ export default function Hero() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-8xl font-bold text-white mb-6 leading-tight">
             Empowering Your
             <br />
             <span className="text-[#CACDD6]">Digital Future</span>
