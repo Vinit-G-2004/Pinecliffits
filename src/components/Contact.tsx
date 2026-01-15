@@ -82,7 +82,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-white/80">Visit Us</p>
-                  <p className="text-lg font-semibold">Office No.3, Ishwari Building, D Mart, Lane Number 5, behind Baner, Laxman Nagar, Baner, Pune, Maharashtra 411045</p>
+                  <p className="text-xs font-semibold">Office No.3, Ishwari Building, D Mart, Lane Number 5, behind Baner, Laxman Nagar, Baner, Pune, Maharashtra 411045</p>
                 </div>
               </div>
             </div>

@@ -87,9 +87,9 @@ export default function Services() {
     },
     {
       icon: BarChart,
-      title: 'Business Intelligence',
+      title: 'Artificial Intelligence',
       description:
-        'Data analytics and visualization tools to drive informed decision-making',
+        'AI-driven intelligence to optimize processes, uncover insights, and improve decision accuracy',
       color: '#2F5DAA',
     },
   ];

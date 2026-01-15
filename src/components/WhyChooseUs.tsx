@@ -111,21 +111,7 @@ export default function WhyChooseUs() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
-          {stats.map((stat, index) => (
-            <div
-              key={index}
-              className={`text-center p-6 rounded-2xl bg-gradient-to-br from-[#2F5DAA] to-[#818FB2] text-white transition-all duration-1000 hover:scale-105 ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-              }`}
-              style={{ transitionDelay: `${index * 100}ms` }}
-            >
-              <div className="text-5xl font-bold mb-2">
-                {stat.value}
-                {stat.suffix}
-              </div>
-              <div className="text-white/80 text-sm font-medium">{stat.label}</div>
-            </div>
-          ))}
+         
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
